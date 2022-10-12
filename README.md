@@ -1,5 +1,5 @@
 # Projeto: Pacote de Processamento de Imagens
-## Autor do Projeto: Ruan Rodrigues
+## Autor do Projeto: Guilherme Tadeu Gonçalves Morais
 #### Tecnologia: Python
 ### Descrição
 O pacote "image_processing-test" é usado para:
@@ -25,7 +25,7 @@ py -m pip install --user --upgrade setuptools wheel
 - [x] Tenha certeza que o diretório no terminal seja o mesmo do arquivo "setup.py"
 
 ```
-C:\User\cafreitas\image-processing-package> py setup.py sdist bdist_wheel
+C:\Users\55379\Desktop\Bootcamp_Dio_Unimed_bh\package-template-master> py setup.py sdist bdist_wheel
 ```
 
 - [x] Após completar a instalação, verifique se as pastas abaixo foram adicionadas ao projeto:
@@ -66,10 +66,9 @@ pip install image-processing-test
 from image-processing-test.processing import combination
 combination.find_difference(image1, image2)
 ```
-<img width="auto" src="git@github.com:ruangja/ProcessamentoImgPython-Dio.git">
 
 ## Autor (quem hospedou o projeto no Test Pypi)
-Carlos Alberto de Freitas
+Guilherme Tadeu G Morais
 
 ## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
